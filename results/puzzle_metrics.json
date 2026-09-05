@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "source": "results/puzzle_raw.json",
+  "nodes_limits": [
+    1000,
+    3000,
+    5000,
+    10000,
+    20000,
+    50000,
+    100000
+  ],
+  "metrics": [
+    {
+      "engine": "custom",
+      "nodes": 1000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.8884,
+      "full_line_accuracy": 0.6669982866301885,
+      "solved_puzzles": 6621,
+      "solved_rate": 0.6621,
+      "matched_moves": 24136,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "official",
+      "nodes": 1000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9187,
+      "full_line_accuracy": 0.7036422925993479,
+      "solved_puzzles": 6884,
+      "solved_rate": 0.6884,
+      "matched_moves": 25462,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "custom",
+      "nodes": 3000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9444,
+      "full_line_accuracy": 0.7354225391035207,
+      "solved_puzzles": 7123,
+      "solved_rate": 0.7123,
+      "matched_moves": 26612,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "official",
+      "nodes": 3000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9645,
+      "full_line_accuracy": 0.76104018128558,
+      "solved_puzzles": 7315,
+      "solved_rate": 0.7315,
+      "matched_moves": 27539,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "custom",
+      "nodes": 5000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9665,
+      "full_line_accuracy": 0.7636378709998342,
+      "solved_puzzles": 7325,
+      "solved_rate": 0.7325,
+      "matched_moves": 27633,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "official",
+      "nodes": 5000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9783,
+      "full_line_accuracy": 0.7801635991820041,
+      "solved_puzzles": 7459,
+      "solved_rate": 0.7459,
+      "matched_moves": 28231,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "custom",
+      "nodes": 10000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9761,
+      "full_line_accuracy": 0.7819046039904936,
+      "solved_puzzles": 7487,
+      "solved_rate": 0.7487,
+      "matched_moves": 28294,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "official",
+      "nodes": 10000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9857,
+      "full_line_accuracy": 0.795583927485768,
+      "solved_puzzles": 7617,
+      "solved_rate": 0.7617,
+      "matched_moves": 28789,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "custom",
+      "nodes": 20000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9842,
+      "full_line_accuracy": 0.7950588625435251,
+      "solved_puzzles": 7602,
+      "solved_rate": 0.7602,
+      "matched_moves": 28770,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "official",
+      "nodes": 20000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9901,
+      "full_line_accuracy": 0.8019123417896424,
+      "solved_puzzles": 7652,
+      "solved_rate": 0.7652,
+      "matched_moves": 29018,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "custom",
+      "nodes": 50000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9901,
+      "full_line_accuracy": 0.8038467915768529,
+      "solved_puzzles": 7675,
+      "solved_rate": 0.7675,
+      "matched_moves": 29088,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "official",
+      "nodes": 50000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9933,
+      "full_line_accuracy": 0.8075775161664732,
+      "solved_puzzles": 7695,
+      "solved_rate": 0.7695,
+      "matched_moves": 29223,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "custom",
+      "nodes": 100000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9934,
+      "full_line_accuracy": 0.8120267506770574,
+      "solved_puzzles": 7743,
+      "solved_rate": 0.7743,
+      "matched_moves": 29384,
+      "expected_moves": 36186
+    },
+    {
+      "engine": "official",
+      "nodes": 100000,
+      "puzzles": 10000,
+      "first_move_accuracy": 0.9952,
+      "full_line_accuracy": 0.8118885756922567,
+      "solved_puzzles": 7771,
+      "solved_rate": 0.7771,
+      "matched_moves": 29379,
+      "expected_moves": 36186
+    }
+  ]
+}

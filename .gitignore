@@ -1,0 +1,34 @@
+# Local Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local bot installation and runtime data
+lichess-bot-master/
+lichess_NeuroForge_*.pgn
+nnue-pytorch/
+
+# Large training and puzzle datasets
+data/
+nnue_checkpoints.zip
+
+# Locally built/reference binaries
+official_stockfish_18/
+my_custom_stockfish/
+Stockfish-sf_18/src/stockfish
+Stockfish-sf_18/src/*.nnue
+Stockfish-sf_18/src/#*
+
+# Raw benchmark captures can be hundreds of megabytes.
+results/puzzle_raw*.json
+
+# Keep generated benchmark summaries only.
+results/puzzle_lengths_*.json
+results/puzzle_lengths_*.csv
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+.DS_Store
